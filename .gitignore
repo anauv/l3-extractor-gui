@@ -1,0 +1,39 @@
+# --- Sensitive PSdZData input: NEVER commit these ---
+input/
+_test_input/
+sec_auth_l3.xml
+sec_security.lic
+sec_keyreference.xml
+sec_keyreference_*.xml
+bmw_logo.png
+bmw_mini_logo.png
+*.lic
+*.p12
+*.pfx
+*.pem
+*.key
+
+# --- Generated output keys ---
+l3_*.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.Python
+
+# --- PyInstaller ---
+*.spec.bak
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
